@@ -60,7 +60,7 @@ h1 {
 .navbar-div {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #D0C9C0;
+    background-color: #EFEAD8;
 }
 
 .nav-tabs {
@@ -69,7 +69,7 @@ h1 {
 }
 
 .tab-content {
-    background-color: #D0C9C0;
+    background-color: #EFEAD8;
     padding: 0.5rem 2rem 1.5rem 2rem;
 }
 
@@ -84,7 +84,7 @@ button.nav-link {
 }
 
 li.nav-item {
-    background-color:#D0C9C0;
+    background-color: #EFEAD8;
 }
 
 .nav-link:hover {
