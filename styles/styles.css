@@ -1,0 +1,187 @@
+
+
+body {
+    color: #5F7161;
+    background-color: #5F7161;
+    font-family: 'Libre Baskerville', serif;    
+}
+
+:lang(zh) {
+    font-family: 'Noto Serif SC', serif;
+}
+
+
+/* left column */
+
+.left-column {
+    /* background-color: #EFEAD8; */
+    background-color: #6D8B74;
+    color: #EFEAD8;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#profile-pic {
+    width: 75%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.left-column p {
+    font-weight: 100;
+    line-height: 1.8rem;
+    font-size: 0.9rem;
+}
+
+.left-column hr {
+    border-style: dotted;
+    border-width: 2px;
+    width: 80%;
+    margin: auto auto 1.3rem;
+
+}
+
+#contact {
+    font-weight: bold;
+}
+
+
+/* right column */
+
+.right-column {
+    background-color: #fefffb;
+   padding: 3rem 2rem 4rem 2rem;
+}
+
+.navbar-div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fefffb;
+}
+
+.nav-tabs {
+    padding-top: 1rem;
+    border-bottom: none;
+}
+
+.tab-content {
+    background-color: #fefffb;
+    padding: 0.5rem 2rem 1.5rem 2rem;
+}
+
+#life-meme{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conferencePics{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+button.nav-link {
+    color: rgba(95, 113, 97, 0.75);
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #fefffb;
+
+    /* rgba(208, 201, 192, 0.7); */
+}
+
+li.nav-item {
+    background-color: #fefffb;
+}
+
+.nav-link:hover {
+    color: #5F7161;
+ /*    text-decoration: underline; */
+    border: none;
+    border-bottom: solid;
+
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #5F7161;
+    border-bottom: solid;
+/*     text-decoration: underline; */
+}
+
+
+h2 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0rem 1rem 0rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-style: italic;
+    line-height: 2rem;
+}
+
+
+#myTab {
+    background-color: rgba(208, 201, 192, 0.7);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+            /* note: the tab gains a lcass "active" when selected
+            below is the attemp to target buttons with a certain unique class */
+
+            /* .nav-tabs > li > button.testclass {
+                color: red;
+            } */
+
+
+
+
+
+
+button.navbar-toggler {
+    border: none;
+}
+
+
+
+
+nav.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+footer {
+    color: #EFEAD8;
+    font-size: 80%;
+    margin: 0.7rem auto 0.7rem auto;
+    text-align: center;
+}
+
+
+/* 
+font color, body background color: #5F7161 (darkest green)
+
+light yellow: #EFEAD8
+
+*/
