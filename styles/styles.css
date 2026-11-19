@@ -82,6 +82,19 @@ h1 {
     margin-right: auto;
 }
 
+#conferencePics{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
 button.nav-link {
     color: rgba(95, 113, 97, 0.75);
     font-weight: 600;
@@ -122,6 +135,7 @@ h3 {
     font-size: 1.2rem;
     margin: 0.5rem 0rem 0.5rem 0rem;
     font-style: italic;
+    line-height: 2rem;
 }
 
 
